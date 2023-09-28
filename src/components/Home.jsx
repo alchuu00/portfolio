@@ -18,12 +18,13 @@ const Home = () => {
           />
         </div>
         <div className="flex flex-col justify-center h-full">
+        <p className="text-gray-500 py-4 max-w-md">Hey, nice to meet you, my name is Alja and I'm a</p>
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Frontend Web Developer
+            Front-end Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Aspiring Frontend Developer seeking opportunities to gain
-            professional experience while actively exploring the world, one
+            seeking opportunities to gain
+            professional experience in front-end development while actively exploring the world, one
             destination at a time.
           </p>
 
@@ -48,7 +49,7 @@ const Home = () => {
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
         </div>
-        <div className="icon-scroll"></div>
+        <div className="icon-scroll hidden lg:block"></div>
       </div>
     </div>
   );

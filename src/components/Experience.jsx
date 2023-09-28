@@ -1,12 +1,12 @@
 import React from "react";
 
-import html from "../assets/html.png";
-import css from "../assets/css.png";
+import postgreSQL from "../assets/postgresql.png";
+import nestJS from "../assets/nestjs.png";
 import javascript from "../assets/js.png";
 import reactImage from "../assets/react.png";
 import typescript from "../assets/ts.png";
 import git from "../assets/git.png";
-import github from "../assets/github.png";
+import postman from "../assets/postman.png";
 import tailwind from "../assets/tailwind.png";
 import node from "../assets/nodejs.png";
 import python from "../assets/python.png";
@@ -16,15 +16,15 @@ const Experience = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
+      src: nestJS,
+      title: "NestJS",
+      style: "shadow-red-500",
     },
     {
       id: 2,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
+      src: postgreSQL,
+      title: "PostgreSQL",
+      style: "shadow-blue-400",
     },
     {
       id: 3,
@@ -54,13 +54,13 @@ const Experience = () => {
       id: 7,
       src: git,
       title: "Git",
-      style: "shadow-red-500",
+      style: "shadow-orange-600",
     },
     {
       id: 8,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
+      src: postman,
+      title: "Postman",
+      style: "shadow-orange-400",
     },
     {
       id: 9,

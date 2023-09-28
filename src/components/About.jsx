@@ -14,9 +14,7 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-5">
-          I am a web developer, focused on frontend, but I have also dabbled in
-          backend work. However, I discovered that my true passion lies in
-          mastering the frontend realm.
+          I am a web developer, focused on front-end, but I have also just recently started to explore the world of back-end too.
         </p>
 
         <br />
@@ -29,7 +27,7 @@ const About = () => {
           building websites and applications, I am able to bring my ideas to
           life and see the concrete results of my hard work. Coding not only
           unleashes my creative side but also sharpens my logical thinking
-          skills. The process of designing, coding, and fixing errors requires
+          skills. The process of designing, coding, and fixing bugs requires
           me to think critically and solve problems, which in turn makes me more
           organized and efficient in my thinking. 
           <br/>

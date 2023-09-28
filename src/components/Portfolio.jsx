@@ -1,6 +1,6 @@
 import React from "react";
 import hyrule from "../assets/portfolio/hyrule.JPG";
-import tesla from "../assets/portfolio/tesla.JPG";
+import wanderlust from "../assets/portfolio/wanderlust.jpg";
 import todo from "../assets/portfolio/todo.JPG";
 
 const Portfolio = () => {
@@ -14,10 +14,10 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      name: "Tesla Landing Page",
-      src: tesla,
-      link: "https://alchuu00.github.io/tesla-landing-page-clone/",
-      repo: "https://github.com/alchuu00/tesla-landing-page-clone",
+      name: "Wanderlust App",
+      src: wanderlust,
+      link: "https://dashing-praline-1c6094.netlify.app/",
+      repo: "https://github.com/alchuu00/wanderlust-app/",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const Portfolio = () => {
   return (
     <div
       name="projects"
-      className="bg-gradient-to-b from-gr to-gray-800 w-full text-white portfolio h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white portfolio h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
