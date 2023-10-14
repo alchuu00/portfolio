@@ -1,7 +1,7 @@
 import React from "react";
 
 //function for form reset
-function handleSubmit(e){
+function handleSubmit(e) {
   setTimeout(() => {
     e.target.reset();
   }, 3000);
@@ -20,14 +20,16 @@ const Contact = () => {
           </p>
           <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
-        
+
         <div className=" flex justify-center items-center">
           <form
             onSubmit={handleSubmit}
             name="contact"
             method="POST"
-            action="https://getform.io/f/c4365670-34d9-4c40-b2fd-be34d089b3fd"
-            className=" flex flex-col w-full md:w-1/2"
+            action="https://your-secure-form-handler.com"
+            className="flex flex-col w-full md:w-1/2"
+            rel="noopener noreferrer"
+            data-netlify="true"
           >
             <input
               type="text"
@@ -51,7 +53,10 @@ const Contact = () => {
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
 
-            <button type="submit" className="text-white bg-gradient-to-b from-orange-500 to-red-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+            <button
+              type="submit"
+              className="text-white bg-gradient-to-b from-orange-500 to-red-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
+            >
               Send Message
             </button>
           </form>
@@ -62,3 +67,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
