@@ -20,11 +20,11 @@ const Home = () => {
         <div className="flex flex-col justify-center h-full">
         <p className="text-gray-500 py-4 max-w-md">Hey, nice to meet you, my name is Alja and I'm a</p>
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            Front-end Developer
+            Full-Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             seeking opportunities to gain
-            professional experience in front-end development while actively exploring the world, one
+            professional experience in full-stack development while actively exploring the world, one
             destination at a time.
           </p>
 
