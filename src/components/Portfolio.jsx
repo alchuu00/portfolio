@@ -1,38 +1,37 @@
 import React from "react";
-import hyrule from "../assets/portfolio/hyrule.JPG";
+import auctionbay from "../assets/portfolio/auctionbay.jpg";
 import wanderlust from "../assets/portfolio/wanderlust.jpg";
-import todo from "../assets/portfolio/todo.JPG";
+import yttranscript from "../assets/portfolio/yttranscript.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      name: "Hyrule Compendium",
-      src: hyrule,
-      link: "https://unique-baklava-e52212.netlify.app/",
-      repo: "https://github.com/alchuu00/zelda-botw-compendium",
+      name: "AuctionBay App",
+      src: auctionbay,
+      link: "https://github.com/alchuu00/auctionbay-app-backend",
+      repo: "https://github.com/alchuu00/auctionbay-app-backend",
     },
     {
       id: 2,
+      name: "Youtube Transcript Generator",
+      src: yttranscript,
+      link: "https://github.com/alchuu00/Youtube-Transcript-App/tree/main",
+      repo: "https://github.com/alchuu00/Youtube-Transcript-App/tree/main",
+    },
+    {
+      id: 3,
       name: "Wanderlust App",
       src: wanderlust,
       link: "https://dashing-praline-1c6094.netlify.app/",
       repo: "https://github.com/alchuu00/wanderlust-app/",
-    },
-    {
-      id: 3,
-      name: "To Do List",
-      src: todo,
-      link: "https://gentle-elf-69e434.netlify.app/",
-      repo: "https://github.com/alchuu00/to-do-app",
     },
   ];
 
   return (
     <div
       name="projects"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white portfolio h-screen"
-    >
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white portfolio h-screen">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
@@ -52,14 +51,12 @@ const Portfolio = () => {
               <div className="flex items-center justify-center">
                 <button
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
-                  onClick={() => window.open(link, "_blank")}
-                >
+                  onClick={() => window.open(link, "_blank")}>
                   Demo
                 </button>
                 <button
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
-                  onClick={() => window.open(repo, "_blank")}
-                >
+                  onClick={() => window.open(repo, "_blank")}>
                   GitHub
                 </button>
               </div>
