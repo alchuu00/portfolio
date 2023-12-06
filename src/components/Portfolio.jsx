@@ -9,7 +9,7 @@ const Portfolio = () => {
       id: 1,
       name: "AuctionBay App",
       src: auctionbay,
-      link: "https://drive.google.com/file/d/1fkeGQhAvjlc906xE9cYiwQfFQVB6He2M/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1-bfEb21509mi2e_YERvpwfb4Q2HnXtnP/view?usp=sharing",
       repo: "https://github.com/alchuu00/auctionbay-app-backend",
     },
     {
