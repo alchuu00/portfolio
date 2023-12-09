@@ -9,14 +9,14 @@ const Portfolio = () => {
       id: 1,
       name: "AuctionBay App",
       src: auctionbay,
-      link: "https://drive.google.com/file/d/1-bfEb21509mi2e_YERvpwfb4Q2HnXtnP/view?usp=sharing",
+      link: "https://drive.google.com/file/d/17dKqYt01WTSYppYu2DEWr1P7SWvpPCWN/view?usp=sharing",
       repo: "https://github.com/alchuu00/auctionbay-app-backend",
     },
     {
       id: 2,
       name: "Youtube Transcript Generator",
       src: yttranscript,
-      link: "https://github.com/alchuu00/Youtube-Transcript-App/tree/main",
+      link: "https://drive.google.com/file/d/1l5wiTLFVKYK1hc81gFwvAsAGdycVLf0H/view?usp=sharing",
       repo: "https://github.com/alchuu00/Youtube-Transcript-App/tree/main",
     },
     {
