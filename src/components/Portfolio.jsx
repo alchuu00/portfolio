@@ -1,6 +1,6 @@
 import React from "react";
 import auctionbay from "../assets/portfolio/auctionbay.jpg";
-import wanderlust from "../assets/portfolio/wanderlust.jpg";
+import resumivise from "../assets/portfolio/resumivise.jpg";
 import yttranscript from "../assets/portfolio/yttranscript.jpg";
 
 const Portfolio = () => {
@@ -14,17 +14,17 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      name: "Resumivise",
+      src: resumivise,
+      link: "https://resumivise.onrender.com/",
+      repo: "https://github.com/PooriaT/Resumivise",
+    },
+    {
+      id: 3,
       name: "Youtube Transcript Generator",
       src: yttranscript,
       link: "https://drive.google.com/file/d/1l5wiTLFVKYK1hc81gFwvAsAGdycVLf0H/view?usp=sharing",
       repo: "https://github.com/alchuu00/Youtube-Transcript-App/tree/main",
-    },
-    {
-      id: 3,
-      name: "Wanderlust App",
-      src: wanderlust,
-      link: "https://dashing-praline-1c6094.netlify.app/",
-      repo: "https://github.com/alchuu00/wanderlust-app/",
     },
   ];
 
