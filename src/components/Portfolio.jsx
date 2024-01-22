@@ -2,6 +2,9 @@ import React from "react";
 import auctionbay from "../assets/portfolio/auctionbay.jpg";
 import resumivise from "../assets/portfolio/resumivise.jpg";
 import yttranscript from "../assets/portfolio/yttranscript.jpg";
+import waniskaw from "../assets/portfolio/waniskaw.jpg";
+import openbc from "../assets/portfolio/openbc.jpg";
+import twai from "../assets/portfolio/twai.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -26,6 +29,27 @@ const Portfolio = () => {
       link: "https://drive.google.com/file/d/1l5wiTLFVKYK1hc81gFwvAsAGdycVLf0H/view?usp=sharing",
       repo: "https://github.com/alchuu00/Youtube-Transcript-App/tree/main",
     },
+    {
+      id: 3,
+      name: "Waniskaw Foundation",
+      src: waniskaw,
+      link: "",
+      repo: "",
+    },
+    {
+      id: 3,
+      name: "OpenBC",
+      src: openbc,
+      link: "",
+      repo: "",
+    },
+    {
+      id: 3,
+      name: "Tech Writter AI",
+      src: twai,
+      link: "",
+      repo: "",
+    },
   ];
 
   return (
@@ -41,12 +65,12 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, name, src, link, repo }) => (
+          {portfolios.slice(0, 3).map(({ id, name, src, link, repo }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt="projects"
-                className="rounded-md duration-200"
+                className="rounded-md duration-200 h-36 w-full object-cover"
               />
               <div className="flex items-center justify-center">
                 <button
@@ -59,6 +83,20 @@ const Portfolio = () => {
                   onClick={() => window.open(repo, "_blank")}>
                   GitHub
                 </button>
+              </div>
+            </div>
+          ))}
+          {portfolios.slice(3, 6).map(({ id, name, src, link, repo }) => (
+            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+              <img
+                src={src}
+                alt="projects"
+                className="rounded-md duration-200 h-36 w-full object-cover"
+              />
+              <div className="flex items-center justify-center">
+                <div className="px-6 py-3 m-4">
+                  Currently in development...
+                </div>
               </div>
             </div>
           ))}

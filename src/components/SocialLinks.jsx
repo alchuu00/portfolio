@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import resume from "../assets/resume.pdf"
@@ -48,10 +48,10 @@ const SocialLinks = () => {
       id: 5,
       child: (
         <>
-          Twitter <FaTwitter size={30} />
+          Medium <FaMedium size={30} />
         </>
       ),
-      href: "https://twitter.com/AljaCekada",
+      href: "https://medium.com/@alja.cekada",
       style: "rounded-br-md",
     },
   ];

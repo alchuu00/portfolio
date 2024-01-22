@@ -13,28 +13,29 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-5">
-          As a full-stack developer, I specialize in creating dynamic user
-          interfaces while also managing server-side operations.
+          I have a year of experience working as a freelance web developer, and
+          my approach is all about simplicity and effectiveness. When I team up
+          with clients, I delve into their needs, turning complex ideas into
+          clear plans for their websites. Communication is key, and I make sure
+          everyone is in the loop every step of the way!
         </p>
-
-        <br />
-
         <p className="text-xl">
-          During my time working at the hospital, I spent countless late nights
-          coding. It was during this period that I built my first web app, and
-          it taught me something unexpected about myself. Coding opened up a
-          whole new world of creativity that I never knew existed. Through
-          building websites and applications, I am able to bring my ideas to
-          life and see the concrete results of my hard work. Coding not only
-          unleashes my creative side but also sharpens my logical thinking
-          skills. The process of designing, coding, and fixing bugs requires me
-          to think critically and solve problems, which in turn makes me more
-          organized and efficient in my thinking.
+          <br />
+          I don't just work solo. I thrive as part of bigger project teams,
+          seamlessly syncing up with designers, marketers, and fellow
+          developers. Whether it's the initial planning, design stages, or the
+          coding phase, I'm all about making everything mesh smoothly.
           <br />
           <br />
-          Overall, coding has become an exciting journey of learning and growth
-          for me. It allows me to tap into my creativity and shape digital
-          experiences with my own hands.
+          What makes me stand out? It's not just technical know-how – I pride
+          myself on keeping things straightforward and getting the job done
+          right. I specialize in building and iterating quickly, so we not only
+          deliver what clients want but also reassess and refine for a perfect
+          fit.
+          <br />
+          <br />
+          If you're seeking a developer who communicates clearly, works
+          efficiently, and adapts swiftly, shoot me an email!
         </p>
       </div>
     </div>
