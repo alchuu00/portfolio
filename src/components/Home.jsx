@@ -23,7 +23,7 @@ const Home = () => {
             Full-Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Helping people turn their ideas into websites and and web applications by iterating quickly and shipping even faster. All while having fun in the proccess!
+            Helping people turn their ideas into websites and web applications by iterating quickly and shipping even faster. All while having fun in the proccess!
           </p>
 
           <div className="portfolio-btn">
