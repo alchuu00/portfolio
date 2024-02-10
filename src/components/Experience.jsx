@@ -5,13 +5,14 @@ import nestJS from "../assets/nestjs.png";
 import javascript from "../assets/js.png";
 import reactImage from "../assets/react.png";
 import typescript from "../assets/ts.png";
-import git from "../assets/git.png";
-import postman from "../assets/postman.png";
+import nextjs from "../assets/nextjs.png";
+import docker from "../assets/docker.png";
 import tailwind from "../assets/tailwind.png";
 import node from "../assets/nodejs.png";
 import python from "../assets/python.png";
 import sass from "../assets/sass.png";
 import bootstrap from "../assets/bootstrap.png";
+
 const Experience = () => {
   const techs = [
     {
@@ -52,15 +53,15 @@ const Experience = () => {
     },
     {
       id: 7,
-      src: git,
-      title: "Git",
-      style: "shadow-orange-600",
+      src: nextjs,
+      title: "Next.js",
+      style: "shadow-gray-300",
     },
     {
       id: 8,
-      src: postman,
-      title: "Postman",
-      style: "shadow-orange-400",
+      src: docker,
+      title: "Docker",
+      style: "shadow-blue-400",
     },
     {
       id: 9,
@@ -91,8 +92,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full experience"
-    >
+      className="bg-gradient-to-b to-gray-800 from-black w-full experience">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
@@ -106,10 +106,7 @@ const Experience = () => {
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
-            <div
-              key={id}
-              className={`shadow-md py-2 rounded-lg ${style}`}
-            >
+            <div key={id} className={`shadow-md py-2 rounded-lg ${style}`}>
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>
             </div>

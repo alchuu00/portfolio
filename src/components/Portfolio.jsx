@@ -3,7 +3,6 @@ import auctionbay from "../assets/portfolio/auctionbay.jpg";
 import resumivise from "../assets/portfolio/resumivise.jpg";
 import yttranscript from "../assets/portfolio/yttranscript.jpg";
 import waniskaw from "../assets/portfolio/waniskaw.jpg";
-import openbc from "../assets/portfolio/openbc.jpg";
 import twai from "../assets/portfolio/twai.jpg";
 
 const Portfolio = () => {
@@ -30,24 +29,17 @@ const Portfolio = () => {
       repo: "https://github.com/alchuu00/Youtube-Transcript-App/tree/main",
     },
     {
-      id: 3,
+      id: 4,
       name: "Waniskaw Foundation",
       src: waniskaw,
-      link: "",
+      link: "https://www.waniskaw.ca/",
       repo: "",
     },
     {
-      id: 3,
-      name: "OpenBC",
-      src: openbc,
-      link: "",
-      repo: "",
-    },
-    {
-      id: 3,
+      id: 5,
       name: "Tech Writter AI",
       src: twai,
-      link: "",
+      link: "https://www.techwriterai.com/",
       repo: "",
     },
   ];
@@ -65,7 +57,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.slice(0, 3).map(({ id, name, src, link, repo }) => (
+          {portfolios.map(({ id, name, src, link, repo }, index) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -74,29 +66,17 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <button
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110"
                   onClick={() => window.open(link, "_blank")}>
-                  Demo
+                  Link
                 </button>
-                <button
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
-                  onClick={() => window.open(repo, "_blank")}>
-                  GitHub
-                </button>
-              </div>
-            </div>
-          ))}
-          {portfolios.slice(3, 6).map(({ id, name, src, link, repo }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-              <img
-                src={src}
-                alt="projects"
-                className="rounded-md duration-200 h-36 w-full object-cover"
-              />
-              <div className="flex items-center justify-center">
-                <div className="px-6 py-3 m-4">
-                  Currently in development...
-                </div>
+                {portfolios.length - index > 2 && (
+                  <button
+                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110"
+                    onClick={() => window.open(repo, "_blank")}>
+                    GitHub
+                  </button>
+                )}
               </div>
             </div>
           ))}
