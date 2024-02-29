@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6db307f4.css",
-    "main.js": "/static/js/main.59bbb40a.js",
+    "main.js": "/static/js/main.60de75ca.js",
     "static/media/Untitled-1.png": "/static/media/Untitled-1.278c16cf63aefc1b4c39.png",
     "static/media/waniskaw.jpg": "/static/media/waniskaw.b9ebd3976082ec8b193d.jpg",
     "static/media/docker.png": "/static/media/docker.4835d748ea85562bce6b.png",
@@ -16,10 +16,10 @@
     "static/media/nestjs.png": "/static/media/nestjs.78696416d7b2db81078c.png",
     "index.html": "/index.html",
     "main.6db307f4.css.map": "/static/css/main.6db307f4.css.map",
-    "main.59bbb40a.js.map": "/static/js/main.59bbb40a.js.map"
+    "main.60de75ca.js.map": "/static/js/main.60de75ca.js.map"
   },
   "entrypoints": [
     "static/css/main.6db307f4.css",
-    "static/js/main.59bbb40a.js"
+    "static/js/main.60de75ca.js"
   ]
 }
