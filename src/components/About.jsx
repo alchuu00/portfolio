@@ -15,23 +15,22 @@ const About = () => {
         <p className="text-xl mt-5">
           I have a year of experience working as a freelance web developer, and
           my approach is all about simplicity and effectiveness. When I team up
-          with clients, I delve into their needs, turning complex ideas into
-          clear plans for their websites. Communication is key, and I make sure
-          everyone is in the loop every step of the way!
+          with clients, I pay attention to their needs, turning complex ideas
+          into clear plans. Communication is key, and I make sure everyone is in
+          the loop every step of the way!
         </p>
         <p className="text-xl">
           <br />
-          I don't just work solo. I thrive as part of bigger project teams,
-          seamlessly syncing up with designers, marketers, and fellow
-          developers. Whether it's the initial planning, design stages, or the
-          coding phase, I'm all about making everything mesh smoothly.
+          While I enjoy discovering and learning new technologies, I am also
+          passionate about Developer Experience and Developer Productivity since
+          I believe how we organize our work is just as important (if not more)
+          than choosing the right tech stack.
           <br />
           <br />
-          What makes me stand out? It's not just technical know-how – I pride
-          myself on keeping things straightforward and getting the job done
-          right. I specialize in building and iterating quickly, so we not only
-          deliver what clients want but also reassess and refine for a perfect
-          fit.
+          I can support your team as a freelance software engineer, primarily
+          within the JavaScript/TypeScript ecosystem but I am always open to
+          working with new technologies. I prefer progress over perfection and
+          enjoy building prototypes, releasing MVPs, and shipping things fast.
           <br />
           <br />
           If you're seeking a developer who communicates clearly, works
